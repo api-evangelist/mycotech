@@ -1,7 +1,16 @@
 aid: mycotech
 name: Mycotech
-description: Mycotech is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MYCL (Mycotech Lab) is an Indonesian biomaterials company, founded in 2015 and
+  based in Bandung, that cultivates mushroom mycelium on agricultural waste to
+  produce sustainable, carbon-sequestering alternatives to animal leather,
+  plastics, and construction materials. Its flagship product is Mylea, a
+  mycelium-based leather-like material, alongside Biobo binder board, MYCL
+  Composite for architecture and interior design, and Mylea Sea, a seaweed-based
+  biopolymer. A certified B Corp and Good Design Award winner backed by 500
+  Global and the Unreasonable Group, MYCL sells physical materials and finished
+  goods rather than software; it publishes no public API, developer portal, or
+  developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/mycotech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://mycl.bio/wp-content/uploads/2025/12/cropped-MYCL_Brandmark-04-1024x425-1.png
 tags:
 - Company
+- Biomaterials
+- Biotechnology
+- Sustainability
+- Mycelium
+- Materials Science
+- Circular Economy
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,12 @@ maintainers:
 common:
 - type: Website
   url: https://mycl.bio
+- type: Blog
+  url: https://mycl.bio/news-blog/
+- type: About
+  url: https://mycl.bio/about/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
